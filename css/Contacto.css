@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+main {
+    margin: 100px;
+    transform: translateX(-10%);
+    position: relative;
+    width: 70%;
+    max-width: 800px;
+    height: 500px; 
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    padding: 60px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#Logo img{
+width: 300px;
+height: auto;
+display: inline block;
+margin-top: -90px;
+margin-left: 50px;
+}  
+
+nav{
+    position: relative;
+    background: #fff;
+    width: 1500px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin: 10px auto;
+    font-size: 24px;
+    margin-left: 300px;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 10px;
+    display: block;
+    width: 220px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: "Microsoft Yi Baiti";
+    font-size: 30px;
+}
+
+li{
+    text-align: center;
+    display: inline-block;
+}
+
+li a:hover{
+border: 1px solid black;
+background: #1796BC;
+border-radius: 15px;
+color: #fff;
+font-family: "Microsoft Yi Baiti";
+}
+
+/*Fin cabecera*/
+
+h1 {
+    font-size: 100px;
+    font-family: "CHICKEN Pie Height";
+    text-align: left;
+    position: relative;
+     top: 40px;
+     left: 50px;
+}
+
+
+
+.Caja1 {
+    background:rgba(73, 167, 201, 11%);
+    width: 1500px;
+    height: 980px;
+    margin-left: 100px;
+    position: relative;
+    margin: 0 auto;
+    left: 150px;
+    
+}
+
+.Info1 h3{
+    font-size: 30px;
+    font-family: "Minion Variable Concept";
+    text-align: right;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    left: 300px;
+    right: 300px;
+    top: 90px;
+    text-align: center;
+    
+}
+
+.Caja2 {
+   display: flex;
+   width: 1480px;
+   padding: -10px;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    left: 300px;
+    right: 300px;
+    top: -230px;
+    width: 420px;
+    padding: 5px;
+   
+    
+}
+
+.Imagen img{
+    width: 560px;
+    height: auto;
+    position: relative;
+    top: -60px;
+    left: 80px;
+    display:inline-flex;
+    box-shadow: 0 16px 20px #1796BC;
+}
+
+form button{
+     background: #1796BC;
+     width: 20%;
+     position: relative;
+     top: -130px;
+     right: -390px;
+     padding: 10px;
+     font-size: 20px;
+     font-family: "Microsoft Yi Baiti";
+    }
+
+form input{
+    border-color: black 10px;
+    width: 450px;
+    height: 50px;
+    position: relative;
+    top: -130px;
+}
+
+textarea{
+    width: 450px;
+    height: 100px;
+    position: relative;
+    top: -130px;
+}
+
+.Caja3 img{
+    width: 1600px;
+    height: auto;
+    position: relative;
+    left: 80px;
+    padding: 40px;
+}
+
+.Caja3 h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "CHICKEN Pie Height";
+    position: relative;
+    top: -500px;
+    left: 280px;
+}
+
+footer img{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -150px;
+    display: block;
+    position: relative;
+    top: 50px;
+    
+}
+
+footer p{
+    margin: 50px auto;
+    color: white;
+    font-size: 30px;
+
+}
+
+footer{
+    width: 248%;
+    height: 280px;
+    position: relative;
+    left: -60px;
+    background: #1796BC;
+    margin-top: 170px;
+    text-align: center;
+    margin: 0 auto;
+  
+}
+
+
+

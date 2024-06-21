@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    padding: 60px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#Logo img{
+width: 300px;
+height: auto;
+display: inline block;
+margin-top: -90px;
+margin-left: 50px;
+}  
+
+nav{
+    position: relative;
+    background: #fff;
+    width: 1500px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin: 10px auto;
+    font-size: 24px;
+    margin-left: 300px;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 10px;
+    display: block;
+    width: 220px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: "Microsoft Yi Baiti";
+    font-size: 30px;
+}
+
+li{
+    text-align: center;
+    display: inline-block;
+}
+
+li a:hover{
+border: 1px solid black;
+background: #1796BC;
+border-radius: 15px;
+color: #fff;
+font-family: "Microsoft Yi Baiti";
+}
+
+/*Fin cabecera*/
+
+h1{
+    font-size: 120px;
+    font-family:CHICKEN Pie Height;
+    text-align: center;
+}
+
+.Caja1 {
+    background: rgba(73, 167, 201, 11%);
+    margin: 0 auto;
+    padding: 30px;
+    width: 1700px;
+    height: auto;
+    margin-top: 100px;
+    
+}
+
+.Info1 h2{
+    font-size: 50px;
+    font-family: "CHICKEN Pie Height";
+    text-align: left;
+    color: #1796BC;
+    margin-top: 100px;
+    margin-left: 700px;
+
+}
+
+.Info1 p {
+    font-size: 30px;
+    font-family: "Microsoft Yi Baiti";
+    text-align: left;
+    margin-left: 680px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.Info1 img{
+    border-radius: 100%;
+    border: 3px solid black;
+    margin-left: 170px;
+    margin-top: -290px;
+    box-shadow:0 16px 20px #1796BC;
+}
+
+
+
+.Caja2{
+    background: rgba(73, 167, 201, 11%);
+    margin: 0 auto;
+    padding: 30px;
+    width: 1700px;
+    height: auto;
+    margin-top: 100px;
+    
+}
+
+.Info2 h2{
+    font-size: 50px;
+    font-family: "CHICKEN Pie Height";
+    text-align: left;
+    color: #1796BC;
+    margin-top: 100px;
+    margin-left: 200px;
+   
+}
+
+.Info2 p {
+    font-size: 30px;
+    font-family: "Microsoft Yi Baiti";
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 600px;
+    
+}
+
+
+.Info2 img{
+    border-radius: 100%;
+    border: 3px solid black;
+    position: relative;
+    right: -980px;
+    margin-top: -290px;
+    width: 470px;
+    height: auto;
+    box-shadow:0 16px 20px #1796BC;
+}
+
+
+h2{
+    font-size: 45px;
+    font-family: "CHICKEN Pie Height"; 
+    text-align: center;
+    margin-top: 140px;
+}
+
+
+footer img{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: -10px;
+    display: block;
+    position: relative;
+    top: 50px;
+    
+}
+
+footer p{
+    margin: 50px auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+footer{
+    width: 105%;
+    height: 290px;
+    margin-left: -25px;
+    position: relative;
+    background: #1796BC;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*Animación*/
+
+.Info1 img:hover{
+    transform: scale(1.2);
+}
+
+.Info2 img:hover{
+    transform: scale(1.2);
+}
+
+
+
